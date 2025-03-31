@@ -1,5 +1,5 @@
 import {useState} from "react"
-import illustration from "./assets/illustration-thank-you.svg"
+import illustrationThankYou from "./assets/illustration-thank-you.svg"
 import iconStar from "./assets/icon-star.svg"
 
 
@@ -41,12 +41,12 @@ export function App() {
         </div>
       ) : (
         <div className="bg-gradient-dark mx-6 p-6 rounded-2xl text-white font-overpass max-w-103">
-          <img src="{illustrationThankYou}" alt="illustrationThankYou" />
+          <img className="mx-auto mb-6"src={illustrationThankYou} alt="illustrationThankYou" />
 
           <p className="text-orange bg-dark-blue w-fit mx-auto px-3 py-1.25 rounded-3xl mb-6">You selected {notaAvaliacao} out of 5</p>
 
-          <h1 className="text-2xl font-bold mb-2.5">Thank You!</h1>
-          <p className="text-light-grey text-sm leading-1 mb-6">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!"</p>
+          <h1 className="text-2xl font-bold mb-2.5 text-center">Thank You!</h1>
+          <p className="text-light-grey text-sm leading-1 mb-6 text-center">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!"</p>
         </div>
       )
   )
