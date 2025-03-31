@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+    --color-very-dark-blue: #131518;
+    --color-dark-blue: #262E38;
+    --color-light-grey: #969FAD;
+    --color-medium-grey: #7C8798;
+    --color-orange: #FC7614;
+
+    --font-overpass: "Overpass", "sans-serif";
+
+    --leading-1: 1.375rem;
+    --leading-2: 1.5rem;
+
+    --tracking-1: 1.867px;
+}
+
+@layer utilities {
+    .bg-gradient-dark {
+        background-image: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    }
+}
