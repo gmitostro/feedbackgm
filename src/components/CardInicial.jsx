@@ -30,7 +30,7 @@ import { InputButton } from "./InputButton"
          <InputButton value={5} setNotaAvaliacao={setNotaAvaliacao} />
          </div>
    
-         <button onClick={handleSubmit} className="bg-orange w-full uppercase tracking-1 font-bold rounded-3xl text-sm py-3 hover:bg-white hover:text-orange hover:cursor-pointer">Submit</button>
+         <button onClick={handleSubmit} className="bg-orange w-full uppercase tracking-1 font-bold rounded-3xl text-sm py-3 hover:bg-white hover:text-orange hover:cursor-pointer duration-500">Submit</button>
        </div>
      )
  }
