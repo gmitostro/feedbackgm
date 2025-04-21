@@ -1,4 +1,4 @@
-import illustrationThankYou from "../assets/illustration-thank-you.svg"
+
 
 export function CardFinal({ notaAvaliacao }) {
     return(
