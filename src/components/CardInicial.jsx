@@ -1,4 +1,4 @@
-import iconStar from "../assets/icon-star.svg"
+import iconStar from "../images/icon-star.svg"
 import { InputButton } from "./InputButton"
 
 export function CardInicial({ setNotaAvaliacao, notaAvaliacao, setSubmited }) {
